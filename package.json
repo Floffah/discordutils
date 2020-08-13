@@ -1,6 +1,33 @@
 {
   "name": "discordutils",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "GPL-3.0",
+  "description": "Utility stuff for Discord.JS bots.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floffah/discordutils.git"
+  },
+  "keywords": [
+    "discord",
+    "utils",
+    "discordjs"
+  ],
+  "author": "Floffah",
+  "bugs": {
+    "url": "https://github.com/Floffah/discordutils/issues"
+  },
+  "homepage": "https://github.com/Floffah/discordutils#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/ws": "^7.2.6",
+    "typescript": "^3.9.7"
+  }
 }
