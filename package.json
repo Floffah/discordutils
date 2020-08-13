@@ -1,5 +1,5 @@
 {
-  "name": "discordutils",
+  "name": "@Floffah/discordutils",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,5 +29,6 @@
     "@types/node": "^14.0.27",
     "@types/ws": "^7.2.6",
     "typescript": "^3.9.7"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
